@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:haul_way/app_widgets/custom_image_view.dart';
 import 'package:haul_way/core/app_assets.dart';
+import 'package:haul_way/theme/app_colors.dart';
 import 'package:haul_way/theme/app_style.dart';
 
 class HomeItem extends StatelessWidget {
@@ -23,7 +24,7 @@ class HomeItem extends StatelessWidget {
           'Beautiful royal dinner gown, the perfect fit for',
           maxLines: 2,
           overflow: TextOverflow.ellipsis,
-          style: AppStyle.txtMontserrat.copyWith(fontWeight: FontWeight.w900),
+          style: AppStyle.txtMontserrat.copyWith(fontWeight: FontWeight.w500),
         ),
         const Gap(10),
         Row(
@@ -40,7 +41,12 @@ class HomeItem extends StatelessWidget {
             const Gap(10),
             Text(
               'Ebiblophile',
-              style: AppStyle.txtMontserrat.copyWith(color: Colors.grey),
+              style: AppStyle.txtMontserrat.copyWith(
+                color: AppColors.fromHex(
+                  '#D7D7D7',
+                ),
+                fontWeight: FontWeight.w600,
+              ),
             ),
           ],
         ),

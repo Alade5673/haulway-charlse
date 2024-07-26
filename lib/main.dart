@@ -29,10 +29,11 @@ class MyApp extends StatelessWidget {
           initialRoute: AppRoutes.initialR,
           getPages: AppRoutes.routes,
           title: 'HaulWay',
-          locale: DevicePreview.locale(context),
-          builder: DevicePreview.appBuilder,
+          // locale: DevicePreview.locale(context),
+          // builder: DevicePreview.appBuilder,
           debugShowCheckedModeBanner: false,
           theme: ThemeData(
+            fontFamily: 'Montserrat',
             colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
             useMaterial3: true,
           ),

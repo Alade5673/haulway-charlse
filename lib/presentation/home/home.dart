@@ -36,7 +36,7 @@ class Home extends StatelessWidget {
 
                 hintStyle: AppStyle.txtMontserrat.copyWith(
                   color: AppColors.fromHex('#7A7A7A'),
-                  fontWeight: FontWeight.bold,
+                  fontWeight: FontWeight.w600,
                   fontSize: 13,
                 ),
 
@@ -92,8 +92,10 @@ class Home extends StatelessWidget {
                     const Gap(5),
                     Text(
                       'LIVE',
-                      style:
-                          AppStyle.txtMontserrat.copyWith(color: Colors.white),
+                      style: AppStyle.txtMontserrat.copyWith(
+                        color: Colors.white,
+                        fontWeight: FontWeight.w500,
+                      ),
                     ),
                   ],
                 ),
@@ -121,8 +123,10 @@ class Home extends StatelessWidget {
                           ),
                           Text(
                             'Covstar',
-                            style: AppStyle.txtMontserrat
-                                .copyWith(fontWeight: FontWeight.bold),
+                            style: AppStyle.txtMontserrat.copyWith(
+                              fontWeight: FontWeight.w600,
+                              fontSize: 13,
+                            ),
                           ),
                         ],
                       ),

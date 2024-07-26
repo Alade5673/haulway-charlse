@@ -4,59 +4,62 @@
 class AppAssets {
   const AppAssets._();
 
-  static const String ASSETS_GOOGLE_FONTS_MONTSERRAT_BLACK_TTF =
-      'assets/google_fonts/Montserrat-Black.ttf';
+  static const String ASSETS_FONTS_MONTSERRAT_BLACK_TTF =
+      'assets/fonts/Montserrat-Black.ttf';
 
-  static const String ASSETS_GOOGLE_FONTS_MONTSERRAT_BLACKITALIC_TTF =
-      'assets/google_fonts/Montserrat-BlackItalic.ttf';
+  static const String ASSETS_FONTS_MONTSERRAT_BLACKITALIC_TTF =
+      'assets/fonts/Montserrat-BlackItalic.ttf';
 
-  static const String ASSETS_GOOGLE_FONTS_MONTSERRAT_BOLD_TTF =
-      'assets/google_fonts/Montserrat-Bold.ttf';
+  static const String ASSETS_FONTS_MONTSERRAT_BOLD_TTF =
+      'assets/fonts/Montserrat-Bold.ttf';
 
-  static const String ASSETS_GOOGLE_FONTS_MONTSERRAT_BOLDITALIC_TTF =
-      'assets/google_fonts/Montserrat-BoldItalic.ttf';
+  static const String ASSETS_FONTS_MONTSERRAT_BOLDITALIC_TTF =
+      'assets/fonts/Montserrat-BoldItalic.ttf';
 
-  static const String ASSETS_GOOGLE_FONTS_MONTSERRAT_EXTRABOLD_TTF =
-      'assets/google_fonts/Montserrat-ExtraBold.ttf';
+  static const String ASSETS_FONTS_MONTSERRAT_EXTRABOLD_TTF =
+      'assets/fonts/Montserrat-ExtraBold.ttf';
 
-  static const String ASSETS_GOOGLE_FONTS_MONTSERRAT_EXTRABOLDITALIC_TTF =
-      'assets/google_fonts/Montserrat-ExtraBoldItalic.ttf';
+  static const String ASSETS_FONTS_MONTSERRAT_EXTRABOLDITALIC_TTF =
+      'assets/fonts/Montserrat-ExtraBoldItalic.ttf';
 
-  static const String ASSETS_GOOGLE_FONTS_MONTSERRAT_EXTRALIGHT_TTF =
-      'assets/google_fonts/Montserrat-ExtraLight.ttf';
+  static const String ASSETS_FONTS_MONTSERRAT_EXTRALIGHT_TTF =
+      'assets/fonts/Montserrat-ExtraLight.ttf';
 
-  static const String ASSETS_GOOGLE_FONTS_MONTSERRAT_EXTRALIGHTITALIC_TTF =
-      'assets/google_fonts/Montserrat-ExtraLightItalic.ttf';
+  static const String ASSETS_FONTS_MONTSERRAT_EXTRALIGHTITALIC_TTF =
+      'assets/fonts/Montserrat-ExtraLightItalic.ttf';
 
-  static const String ASSETS_GOOGLE_FONTS_MONTSERRAT_ITALIC_TTF =
-      'assets/google_fonts/Montserrat-Italic.ttf';
+  static const String ASSETS_FONTS_MONTSERRAT_ITALIC_TTF =
+      'assets/fonts/Montserrat-Italic.ttf';
 
-  static const String ASSETS_GOOGLE_FONTS_MONTSERRAT_LIGHT_TTF =
-      'assets/google_fonts/Montserrat-Light.ttf';
+  static const String ASSETS_FONTS_MONTSERRAT_LIGHT_TTF =
+      'assets/fonts/Montserrat-Light.ttf';
 
-  static const String ASSETS_GOOGLE_FONTS_MONTSERRAT_LIGHTITALIC_TTF =
-      'assets/google_fonts/Montserrat-LightItalic.ttf';
+  static const String ASSETS_FONTS_MONTSERRAT_LIGHTITALIC_TTF =
+      'assets/fonts/Montserrat-LightItalic.ttf';
 
-  static const String ASSETS_GOOGLE_FONTS_MONTSERRAT_MEDIUM_TTF =
-      'assets/google_fonts/Montserrat-Medium.ttf';
+  static const String ASSETS_FONTS_MONTSERRAT_MEDIUM_TTF =
+      'assets/fonts/Montserrat-Medium.ttf';
 
-  static const String ASSETS_GOOGLE_FONTS_MONTSERRAT_MEDIUMITALIC_TTF =
-      'assets/google_fonts/Montserrat-MediumItalic.ttf';
+  static const String ASSETS_FONTS_MONTSERRAT_MEDIUMITALIC_TTF =
+      'assets/fonts/Montserrat-MediumItalic.ttf';
 
-  static const String ASSETS_GOOGLE_FONTS_MONTSERRAT_REGULAR_TTF =
-      'assets/google_fonts/Montserrat-Regular.ttf';
+  static const String ASSETS_FONTS_MONTSERRAT_REGULAR_TTF =
+      'assets/fonts/Montserrat-Regular.ttf';
 
-  static const String ASSETS_GOOGLE_FONTS_MONTSERRAT_SEMIBOLD_TTF =
-      'assets/google_fonts/Montserrat-SemiBold.ttf';
+  static const String ASSETS_FONTS_MONTSERRAT_SEMIBOLD_TTF =
+      'assets/fonts/Montserrat-SemiBold.ttf';
 
-  static const String ASSETS_GOOGLE_FONTS_MONTSERRAT_SEMIBOLDITALIC_TTF =
-      'assets/google_fonts/Montserrat-SemiBoldItalic.ttf';
+  static const String ASSETS_FONTS_MONTSERRAT_SEMIBOLDITALIC_TTF =
+      'assets/fonts/Montserrat-SemiBoldItalic.ttf';
 
-  static const String ASSETS_GOOGLE_FONTS_MONTSERRAT_THIN_TTF =
-      'assets/google_fonts/Montserrat-Thin.ttf';
+  static const String ASSETS_FONTS_MONTSERRAT_THIN_TTF =
+      'assets/fonts/Montserrat-Thin.ttf';
 
-  static const String ASSETS_GOOGLE_FONTS_MONTSERRAT_THINITALIC_TTF =
-      'assets/google_fonts/Montserrat-ThinItalic.ttf';
+  static const String ASSETS_FONTS_MONTSERRAT_THINITALIC_TTF =
+      'assets/fonts/Montserrat-ThinItalic.ttf';
+
+  static const String ASSETS_FONTS_STOIC_REGULAR_TTF =
+      'assets/fonts/Stoic-Regular.ttf';
 
   static const String ASSETS_ICONS_BROADCAST_SVG = 'assets/icons/broadcast.svg';
 

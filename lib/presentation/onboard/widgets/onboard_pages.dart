@@ -3,6 +3,7 @@ import 'package:gap/gap.dart';
 import 'package:haul_way/app_widgets/custom_image_view.dart';
 import 'package:haul_way/core/app_functions.dart';
 import 'package:haul_way/presentation/onboard/model/onboard_model.dart';
+import 'package:haul_way/theme/app_colors.dart';
 import 'package:haul_way/theme/app_style.dart';
 
 class OnboardPage extends StatelessWidget {
@@ -41,9 +42,9 @@ class OnboardPage extends StatelessWidget {
                 Text(
                   onBoardModel.description,
                   style: AppStyle.txtMontserrat.copyWith(
-                    fontWeight: FontWeight.w400,
+                    fontWeight: FontWeight.w600,
                     fontSize: 12.9,
-                    color: Colors.white,
+                    color: AppColors.fromHex('#D7D7D7'),
                   ),
                 ),
               ],

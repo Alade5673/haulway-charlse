@@ -82,14 +82,18 @@ class _SplashState extends State<Splash> {
                 children: [
                   Text(
                     'from',
-                    style: AppStyle.txtMontserrat
-                        .copyWith(color: Colors.white, fontSize: 15),
+                    style: AppStyle.txtMontserrat.copyWith(
+                      color: Colors.white,
+                      fontSize: 15,
+                      fontWeight: FontWeight.w600,
+                    ),
                   ),
                   const Gap(10),
                   const CustomImageView(
                     height: 20,
                     imagePath: AppAssets.ASSETS_IMAGES_GRASSCOPE_PNG,
                   ),
+                  const Gap(20),
                 ],
               ),
             ],
